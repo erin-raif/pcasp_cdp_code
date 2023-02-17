@@ -1,0 +1,134 @@
+{
+    'diameter_centre': dict(
+        long_name = "Centre diameter of each bin",
+        comment = "Weighted average of all diameter region centres covered by the scattering cross-sections of each bin. This is discussed in sections 4.1 and 4.2 in Rosenberg et al. [2012]",
+        shape = "spherical",
+        units = "um"
+    ),
+    'diameter_centre_err': dict(
+        long_name = "Uncertainty of bin centre diameter",
+        comment = "Uncertainties are discussed in sections 4.1 and 4.2 in Rosenberg et al.",
+        units = "um"
+    ),
+    'diameter_width': dict(
+        long_name = "Width in terms of diameter of each bin",
+        comment = "Sum of all diameter regions covered by the scattering cross-sections of each bin. This is discussed in sections 4.1 and 4.2 in Rosenberg et al. [2012]",
+        shape = "spherical",
+        units = "um"
+    ),
+    'diameter_width_err': dict(
+        long_name = "Uncertainty of bin diameter width",
+        comment = "Uncertainties are discussed in sections 4.1 and 4.2 in Rosenberg et al.",
+        units = "um"
+    ),
+    'diameter_log_centre': dict(
+        long_name = "Logarithmic centre diameter of each bin",
+        comment = "Weighted average of all diameter region centres covered by the scattering cross-sections of each bin. This is discussed in sections 4.1 and 4.2 in Rosenberg et al. [2012]",
+        shape = "spherical",
+        units = "none"
+    ),
+    'diameter_log_centre_err': dict(
+        long_name = "Uncertainty of logarithmic bin centre diameter",
+        comment = "Uncertainties are discussed in sections 4.1 and 4.2 in Rosenberg et al.",
+        units = "none"
+    ),
+    'diameter_log_width': dict(
+        long_name = "Width in terms of logarithmic diameter of each bin",
+        comment = "Sum of all diameter regions covered by the scattering cross-sections of each bin. This is discussed in sections 4.1 and 4.2 in Rosenberg et al. [2012]",
+        shape = "spherical",
+        units = "none"
+    ),
+    'diameter_log_width_err': dict(
+        long_name = "Uncertainty of logarithmic bin diameter width",
+        comment = "Uncertainties are discussed in sections 4.1 and 4.2 in Rosenberg et al.",
+        units = "none"
+    ),
+    'area_centre': dict(
+        long_name = "Centre area of each bin",
+        comment = "Weighted average of all area region centres covered by the scattering cross-sections of each bin. This is discussed in sections 4.1 and 4.2 in Rosenberg et al. [2012]",
+        shape = "spherical",
+        units = "um"
+    ),
+    'area_centre_err': dict(
+        long_name = "Uncertainty of bin centre area",
+        comment = "Uncertainties are discussed in sections 4.1 and 4.2 in Rosenberg et al.",
+        units = "um"
+    ),
+    'area_width': dict(
+        long_name = "Width in terms of area of each bin",
+        comment = "Sum of all area regions covered by the scattering cross-sections of each bin. This is discussed in sections 4.1 and 4.2 in Rosenberg et al. [2012]",
+        shape = "spherical",
+        units = "um"
+    ),
+    'area_width_err': dict(
+        long_name = "Uncertainty of bin area width",
+        comment = "Uncertainties are discussed in sections 4.1 and 4.2 in Rosenberg et al.",
+        units = "um"
+    ),
+    'area_log_centre': dict(
+        long_name = "Logarithmic centre area of each bin",
+        comment = "Weighted average of all area region centres covered by the scattering cross-sections of each bin. This is discussed in sections 4.1 and 4.2 in Rosenberg et al. [2012]",
+        shape = "spherical",
+        units = "none"
+    ),
+    'area_log_centre_err': dict(
+        long_name = "Uncertainty of logarithmic bin centre area",
+        comment = "Uncertainties are discussed in sections 4.1 and 4.2 in Rosenberg et al.",
+        units = "none"
+    ),
+    'area_log_width': dict(
+        long_name = "Width in terms of logarithmic area of each bin",
+        comment = "Sum of all area regions covered by the scattering cross-sections of each bin. This is discussed in sections 4.1 and 4.2 in Rosenberg et al. [2012]",
+        shape = "spherical",
+        units = "none"
+    ),
+    'area_log_width_err': dict(
+        long_name = "Uncertainty of logarithmic bin area width",
+        comment = "Uncertainties are discussed in sections 4.1 and 4.2 in Rosenberg et al.",
+        units = "none"
+    ),
+    'volume_centre': dict(
+        long_name = "Centre volume of each bin",
+        comment = "Weighted average of all volume region centres covered by the scattering cross-sections of each bin. This is discussed in sections 4.1 and 4.2 in Rosenberg et al. [2012]",
+        shape = "spherical",
+        units = "um"
+    ),
+    'volume_centre_err': dict(
+        long_name = "Uncertainty of bin centre volume",
+        comment = "Uncertainties are discussed in sections 4.1 and 4.2 in Rosenberg et al.",
+        units = "um"
+    ),
+    'volume_width': dict(
+        long_name = "Width in terms of volume of each bin",
+        comment = "Sum of all volume regions covered by the scattering cross-sections of each bin. This is discussed in sections 4.1 and 4.2 in Rosenberg et al. [2012]",
+        shape = "spherical",
+        units = "um"
+    ),
+    'volume_width_err': dict(
+        long_name = "Uncertainty of bin volume width",
+        comment = "Uncertainties are discussed in sections 4.1 and 4.2 in Rosenberg et al.",
+        units = "um"
+    ),
+    'volume_log_centre': dict(
+        long_name = "Logarithmic centre volume of each bin",
+        comment = "Weighted average of all volume region centres covered by the scattering cross-sections of each bin. This is discussed in sections 4.1 and 4.2 in Rosenberg et al. [2012]",
+        shape = "spherical",
+        units = "none"
+    ),
+    'volume_log_centre_err': dict(
+        long_name = "Uncertainty of logarithmic bin centre volume",
+        comment = "Uncertainties are discussed in sections 4.1 and 4.2 in Rosenberg et al.",
+        units = "none"
+    ),
+    'volume_log_width': dict(
+        long_name = "Width in terms of logarithmic volume of each bin",
+        comment = "Sum of all volume regions covered by the scattering cross-sections of each bin. This is discussed in sections 4.1 and 4.2 in Rosenberg et al. [2012]",
+        shape = "spherical",
+        units = "none"
+    ),
+    'volume_log_width_err': dict(
+        long_name = "Uncertainty of logarithmic bin volume width",
+        comment = "Uncertainties are discussed in sections 4.1 and 4.2 in Rosenberg et al.",
+        units = "none"
+    )
+}
